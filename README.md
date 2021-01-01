@@ -27,7 +27,7 @@ When new items are added to your Pocket, new list items are appended to the spec
   
     Go to **Manage** -> **Certificates and secrets** -> **New client secret**, create a client secret which doesn't expire and copy its value.
 
-3. Configure environment variables:
+3. Deploy to Autocode using the button at the top of this README, and configure environment variables:
 
     - `SECRET_KEY`: A random string which prevents an attacker from guessing your `pocket_auth_callback` and `pocket_login` endpoints and logging in with their own Pocket account. You can generate a UUID.  
       e.g. `aa971e90-c644-4361-b1a1-16d4cdecfd59`
