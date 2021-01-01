@@ -1,0 +1,1 @@
+{"name":"spencer/pocket-to-onedrive","timeout":10000,"connector":false,"defaults":{},"events":{"functions/events/scheduler/sync.js":{"name":"scheduler.hourly","subtype":{"offset":"0 minutes"}},"functions/events/scheduler/refresh_onedrive_token.js":{"name":"scheduler.hourly","subtype":{"offset":"30 minutes"}}},"version":"0.0.1"}
